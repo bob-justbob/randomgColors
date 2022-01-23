@@ -10,4 +10,9 @@ btn.addEventListener('click', () => {
 
     sec.style.background = randomColor;
    h2.innerHTML = randomColor;
+   if(randomColor === 'black') {
+       h2.style.color = 'white'
+   }else {
+       console.log('error')
+   }
 })
